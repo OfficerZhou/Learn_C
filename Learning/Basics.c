@@ -1,6 +1,8 @@
 #include<stdio.h>
+#include<math.h>
 
 #include<string.h>
+
 
 #include<string.h>//strcpy_s
 #include <assert.h>//断言assert(d!=NULL)
@@ -300,6 +302,7 @@
 //	return 0;
 //}
 
+//野指针访问越界导致无限循环
 ////野指针访问越界导致无限循环
 //int main()
 //{
